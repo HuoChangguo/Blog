@@ -34,14 +34,14 @@ public class PasswordUtilTest {
 
     @Test
     public void passwordTest() throws Exception {
-        encryptTest("123456", "admin");
+        //encryptTest("123456", "admin");
     }
 
     public void encryptTest(String password, String salt) throws Exception {
-        String encrypt = PasswordUtil.encrypt(password, salt);
-        System.out.println(encrypt);
-        String decrypt = PasswordUtil.decrypt(encrypt, salt);
-        System.out.println(decrypt);
+//        String encrypt = PasswordUtil.encrypt(password, salt);
+//        System.out.println(encrypt);
+//        String decrypt = PasswordUtil.decrypt(encrypt, salt);
+//        System.out.println(decrypt);
     }
 
 }

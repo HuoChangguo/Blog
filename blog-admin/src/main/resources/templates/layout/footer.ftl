@@ -9,7 +9,7 @@
 <script type="text/javascript">
     var appConfig = {
         qiniuPath: '${config.qiuniuBasePath}',
-        qiniuImgStyle: '-pw',
+        qiniuImgStyle: '',
         wwwPath: '${config.siteUrl}',
         staticPath: '${config.staticWebSite}'
     }

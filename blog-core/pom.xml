@@ -179,5 +179,9 @@
             <artifactId>tomcat-embed-core</artifactId>
             <version>8.5.29</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
     </dependencies>
 </project>
